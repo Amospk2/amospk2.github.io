@@ -1,1 +1,43 @@
+body {
+	background-color:gray;
+    color : black;
+}
+header{
+	text-align: center;
+	color: white;
+	position:absolute; 		
+	left:50%; 		
+	top:50%; 		
+	margin-left:-70px; 		
+	margin-top:-310px;
+	
+}
+div {
+	padding: 15px
+	text-align: center;
 
+}
+section{
+	background-color: white;
+	border-radius: 10px;
+	padding: 25px;
+	width: 500px;
+	margin: auto;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+	position:absolute; 		
+	left:50%; 		
+	top:50%; 		
+	margin-left:-250px; 		
+	margin-top:-250px;	
+}
+footer{
+	text-align: center;
+	color: white;
+	font-style: italic;
+	position:absolute; 		
+	left:50%; 		
+	top:50%; 		
+	margin-left:-30px; 		
+	margin-top:130px;
+	
+}
