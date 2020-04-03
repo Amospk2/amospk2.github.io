@@ -1,12 +1,13 @@
 body{
-	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
-}
-h1{
-	color: black;
+	background: url(https://cdn.pixabay.com/photo/2016/03/17/23/07/abstract-1264071_1280.png)no-repeat;
+	background-size:cover;
 }
 header{
 	color: white;
 	text-align: center;
+}
+h1{
+	color:gray;
 }
 
 .button {
@@ -26,7 +27,7 @@ header{
   background-color: white; 
   color: black; 
   border: 2px solid #555555;
-width:490px;
+  width:490px;
 }
 
 .button1{
