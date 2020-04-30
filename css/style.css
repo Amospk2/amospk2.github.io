@@ -3,142 +3,28 @@
     margin : 0;
 }
 
-body {
-	color:white;
-	background:url(../Ima2.jpeg);
+div{
+	overflow:auto;
 }
-
-p{
-	margin: 2px 0 0 5px;
+iframe{
+	width:700px;
+	height:400px;
+	border: 2px solid white;
+}
+body{
+	background:rgba(122, 132, 152, 1);
+	padding-top:60px;
 	color:white;
+	
+}
+@media(max-width:768px){
+iframe{
+	width:330px;
+	height:400px;
 }
 h1{
+	font-size:25px;
 	color:white;
 }
-.pe{
-	font-size:27px;
-	padding: 0 45px;
-}
-.meio{
-	overflow:auto;
-	background:rgba(187, 66, 99, 0.8);
-	width:100%;
-	position:relative;
-	left:25px;
-	top:25px;
-	color:black;
-}
-.conteudo{
-	overflow:auto;
-	top:50px;
-}
-.corpo{
-	width:106%;
-	background:rgba(20, 20, 10, 0.8);
-}
-.rodape{
-	margin-top:70px;
-	position:static;
-	height:100px;
-}
-.cabecalho h1{
-	color:rgba(220, 220, 220, 1);
-	text-align:center;
-}
-.meio li{
-	margin:25px 0 0 25px;
-	width:200px;
-	height:220px;
-	background:gray;
-	display:inline-block;
-}
-.meio h2{
-	text-align:center;
-}
-.divt{
-	margin:10px 0 0 10px;
-	background:url(../Ima.jpeg);
-	width:180px;
-	height:180px;
 }
 
-.divCi{
-	margin-right:18px;
-	display:inline-block;
-	float:left;
-	height:400px;
-	width:420px;
-	background:black;
-	color:white;
-}
-.divc{
-	margin:15px 0 0 27px;
-	height:340px;
-	width:370px;
-	background:url(../Ima.jpeg);
-}
-.divCi h2{
-	margin-top:7px;
-}
-.conteudo p{
-	margin:25px 0 0 50px;
-	font-size:30px;
-}
-.meuestilo{
-	background:url(../Ima2.jpeg);
-}
-
-{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
-@media(max-width:939px){
-
-.cabecalho{
-	width:106%;
-}
-.meio{
-	overflow:auto;
-	position:static;
-	margin-left:10px;
-	margin-right:10px;
-	margin-top:10px;
-	width:100%;
-	height:500px;
-	padding-bottom:20px;
-}
-.divt{
-	width:84%;
-}
-.meio li{
-	position:static;
-	width:40%;
-	height:40%;
-	display:inline-block;
-}
-.divCi{
-	margin:10px 10px 10px 10px;
-	float:left;
-	width:95%;
-	background:black;
-	color:white;
-}
-.divc{
-	margin:10px 10px 10px 10px;
-	width:94%;
-}
-.conteudo p{
-	margin:8px;
-	padding:4px;
-	font-size:15px;
-	color:white;
-}
-.conteudo h1{
-	color:white;
-	margin-left:10px;
-}
-
-}
-
-
-
-
-
-	
