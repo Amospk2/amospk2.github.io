@@ -13,7 +13,7 @@ iframe{
 }
 body{
 	background:rgba(100, 100, 150, 1);
-	padding-top:11%;
+	padding-top:20%;
 	color:white;
 	
 }
@@ -22,7 +22,7 @@ body{
 }
 @media(max-width:768px){
 body{
-	padding-top:30%;
+	padding-top:50%;
 }
 iframe{
 	width:100%;
